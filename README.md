@@ -1,0 +1,2 @@
+# precrypt
+Cryptocurrency prediction model
