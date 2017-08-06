@@ -22,7 +22,16 @@ services:
       - elk
     depends_on:
       - elasticsearch
+  data_fetcher:
+    build: data_fetcher/
+    ports:
+      - "8080:8080"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
 
 networks:
   elk:
     driver: bridge
+    
