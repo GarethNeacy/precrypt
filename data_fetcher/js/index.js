@@ -3,7 +3,7 @@ const elasticsearch = require('elasticsearch')
 const fetch = require('node-fetch')
 
 // Constants
-const PORT = 3000
+const PORT = 8000
 const HOST = '0.0.0.0'
 const COIN_PRICE_FETCH_INTERVAL_SIZE = 60000
 
